@@ -1,4 +1,5 @@
 # webPortfolio
+<<<<<<< HEAD
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -42,3 +43,6 @@ npm run build
 ```sh
 npm run lint
 ```
+=======
+This is for my career tech portfolio
+>>>>>>> acd3e17cff0262de8e01c9e9373a71b456ee3a42
