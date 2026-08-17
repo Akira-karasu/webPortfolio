@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.fade-scroll {
+  overflow-y: auto;
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    black 0%,
+    black 85%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    black 0%,
+    black 85%,
+    transparent 100%
+  );
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.green-tag{
+  background-color: #3fdc0b;
+}
+
+.orange-tag{
+  background-color: #dc850b;
+}
+
+.profile-image {
+  width: 490px;
+  height: 490px;
+  object-fit: cover;
+  object-position: 50% 40%;
+  border: 5px solid #19192B;
+  border-radius: 10px;
+  box-shadow: 0 8px 6px rgba(0, 0, 0, 0.25);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.profile-image:hover{
+    border: 5px solid #0BDC3D;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.photo-image {
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+  object-position: 50% 40%;
+  border: 5px solid #19192B;
+  border-radius: 10px;
+  box-shadow: 0 8px 6px rgba(0, 0, 0, 0.25);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.photo-image:hover{
+    border: 5px solid #0BDC3D;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: none;
+}
+
+/* Internet Explorer & old Edge */
+* {
+  -ms-overflow-style: none;
+}
+
+/* JetBrains Mono Font Classes */
+
+body{
+    background-color: #22222A;
+}
+
+.color_green{
+  color: #0BDC3D;
+}
+
+.color_pink{
+  color: #DB00F1;
+}
+
+*{
+  font-family: "JetBrains Mono", monospace;
+  color: #ffffff;
+}
+
+.jetbrains-mono-thin {
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.jetbrains-mono-extralight {
+  font-optical-sizing: auto;
+  font-size: 14px;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.jetbrains-mono-light {
+  font-optical-sizing: auto;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.jetbrains-mono-regular {
+  font-optical-sizing: auto;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jetbrains-mono-medium {
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 36px;
+  font-style: normal;
+}
+
+.jetbrains-mono-semibold {
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.jetbrains-mono-bold {
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.jetbrains-mono-extrabold {
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
