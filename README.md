@@ -59,43 +59,6 @@ webPortfolio/
 └── .gitignore
 ```
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js 22.18+ or newer compatible version
-- npm
-
-### Install dependencies
-
-```bash
-npm install
-```
-
-### Run locally
-
-```bash
-npm run dev
-```
-
-### Build for production
-
-```bash
-npm run build
-```
-
-### Preview production build
-
-```bash
-npm run preview
-```
-
-## Linting
-
-```bash
-npm run lint
-```
-
 ## Content Customization
 
 Most portfolio content is stored under the `src/data` folder. You can update:
