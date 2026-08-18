@@ -17,12 +17,7 @@ import BaseAnchor from '../common/BaseAnchor.vue'
         </div>
       </div>
     </div>
-    <img
-      src="../../../images/picture/Email campaign-amico.png"
-      alt="Contact"
-      width="550px"
-      height="auto"
-    />
+    <img src="/images/picture/emailCampeign.png" alt="Contact" width="550px" height="auto" />
   </div>
 </template>
 

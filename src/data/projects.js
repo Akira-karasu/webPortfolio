@@ -2,7 +2,7 @@ export const projects = {
   2023: [
     {
       projectTitle: 'CipherHub',
-      image: '../../../images/projects/CipherHub.png',
+      image: '/images/projects/CipherHub.png',
       techStack: ['Html', 'Css', 'Javascript'],
       role: 'Front-end',
       typeProject: 'Cyptography learning / Front-end Practice',
@@ -11,12 +11,12 @@ export const projects = {
       links: [
         {
           platform: 'github',
-          logo: '../../../images/logo/techs/github.png',
+          logo: '/images/logo/techs/github.png',
           link: 'https://github.com/Akira-karasu/Cipher-Project',
         },
         {
           platform: 'weblink',
-          logo: '../../../images/icons/www.png',
+          logo: '/images/icons/www.png',
           link: 'https://akira-karasu.github.io/Cipher-Project/?fbclid=IwZXh0bgNhZW0CMTEAAR0ddPTh-0USdqNSz3Bb3NxnYRKzE9mTO41x1PYKSu7ubPxxF8sRdPC6DUQ_aem_CNIeL7huUUH9YC4IahJ0PA',
         },
       ],
@@ -34,7 +34,7 @@ export const projects = {
   2025: [
     {
       projectTitle: 'Activity-To-Do-List',
-      image: '../../../images/projects/To-Do-List.png',
+      image: '/images/projects/To-Do-List.png',
       typeProject: 'Academic Project',
       role: 'Front-end & Back-end Developer',
       techStack: ['React', 'NestJS', 'TypeScript', 'TypeORM', 'Restful API', 'MVC', 'MySQL'],
@@ -43,14 +43,14 @@ export const projects = {
       links: [
         {
           platform: 'github',
-          logo: '../../../images/logo/techs/github.png',
+          logo: '/images/logo/techs/github.png',
           link: 'https://github.com/Akira-karasu/Activity-1-To-do-list-ITEC-111',
         },
       ],
     },
     {
       projectTitle: 'Activity-Library',
-      image: '../../../images/projects/Library.png',
+      image: '/images/projects/Library.png',
       typeProject: 'Academic Project',
       role: 'Front-end & Back-end Developer',
       techStack: ['React', 'NestJS', 'TypeScript', 'TypeORM', 'Restful API', 'MVC', 'MySQL'],
@@ -59,14 +59,14 @@ export const projects = {
       links: [
         {
           platform: 'github',
-          logo: '../../../images/logo/techs/github.png',
+          logo: '/images/logo/techs/github.png',
           link: 'https://github.com/Akira-karasu/Activity-2-Library-ITEC-111.git',
         },
       ],
     },
     {
       projectTitle: 'Innov-IT-Team-Portfolio',
-      image: '../../../images/projects/InnovIT.png',
+      image: '/images/projects/InnovIT.png',
       typeProject: 'Academic Project',
       role: 'Web Designer & Front-end Developer',
       description:
@@ -75,19 +75,19 @@ export const projects = {
       links: [
         {
           platform: 'github',
-          logo: '../../../images/logo/techs/github.png',
+          logo: '/images/logo/techs/github.png',
           link: 'https://github.com/Akira-karasu/Team_InovIT_E-Portfolio',
         },
         {
           platform: 'weblink',
-          logo: '../../../images/icons/www.png',
+          logo: '/images/icons/www.png',
           link: 'https://team-inov-it-e-portfolio.vercel.app/',
         },
       ],
     },
     {
       projectTitle: 'Rizal Website',
-      image: '../../../images/projects/RizalWeb.png',
+      image: '/images/projects/RizalWeb.png',
       typeProject: 'Academic Project',
       role: 'Web Designer & Front-end Developer',
       description:
@@ -96,7 +96,7 @@ export const projects = {
       links: [
         {
           platform: 'weblink',
-          logo: '../../../images/icons/www.png',
+          logo: '/images/icons/www.png',
           link: 'https://team-inov-it-e-portfolio.vercel.app/',
         },
       ],
@@ -107,14 +107,14 @@ export const projects = {
       projectTitle: 'Web Scrapping Scripting',
       role: 'Python Scripting',
       typeProject: 'Personal project & practice',
-      image: '../../../images/projects/webscrapping.png',
+      image: '/images/projects/webscrapping.png',
       techStack: ['Python', 'Beautifulsoup4'],
       description:
         'A practice project focused on learning web scraping techniques, extracting structured data from websites, and processing collected information programmatically. The project helped develop practical skills in web data extraction, HTML parsing, and automation.',
       links: [
         {
           platform: 'github',
-          logo: '../../../images/logo/techs/github.png',
+          logo: '/images/logo/techs/github.png',
           link: 'https://github.com/Akira-karasu/Web-Scrapping/tree/main',
         },
       ],
@@ -123,7 +123,7 @@ export const projects = {
       projectTitle: 'IQUEUE: Smart Queue Management Mobile Application',
       role: 'Mobile-Front-end & Back-end Developer',
       typeProject: 'Capstone project',
-      image: '../../../images/projects/iQueue.png',
+      image: '/images/projects/iQueue.png',
       techStack: [
         'React Native Expo',
         'Restful API',
@@ -138,7 +138,7 @@ export const projects = {
       links: [
         {
           platform: 'github',
-          logo: '../../../images/logo/techs/github.png',
+          logo: '/images/logo/techs/github.png',
           link: 'https://github.com/Akira-karasu/iQueue_Mobile_App',
         },
       ],
@@ -147,14 +147,14 @@ export const projects = {
       projectTitle: 'IQUEUE: Smart Queue Management Web Application',
       role: 'Back-end Developer',
       typeProject: 'Capstone project',
-      image: '../../../images/projects/iQueue.png',
+      image: '/images/projects/iQueue.png',
       techStack: ['ReactJS', 'Restful API', 'NestJS', 'MVC', 'TypeORM', 'Typescript', 'MySQL'],
       description:
         'Contributed to backend development by building and integrating RESTful APIs using NestJS, TypeORM, and MySQL to connect the mobile application, support system logic, and enable real-time queue management for mobile and web.',
       links: [
         {
           platform: 'github',
-          logo: '../../../images/logo/techs/github.png',
+          logo: '/images/logo/techs/github.png',
           link: 'https://github.com/Naksu14/iQueue_Web-System',
         },
       ],

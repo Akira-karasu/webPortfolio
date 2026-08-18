@@ -48,7 +48,7 @@ const certificateTypes = [
   <div class="flex flex-col items-center justify-center min-h-screen gap-10">
     <!-- ABOUT ME -->
     <div class="flex items-center justify-center gap-12 h-screen hidden-section">
-      <img src="../../../images/picture/Enrique.JPG" alt="Profile" class="profile-image" />
+      <img src="/images/picture/Enrique.JPG" alt="Profile" class="profile-image" />
       <div class="w-1/2 flex flex-col gap-4">
         <h2 class="jetbrains-mono-regular color_green">LORD RAVEN FLEA IRIS A. ENRIQUE</h2>
         <Container>
@@ -171,12 +171,7 @@ const certificateTypes = [
         </div>
 
         <div v-else class="flex flex-col gap-5 items-center justify-center py-20 h-200">
-          <img
-            src="../../../images/icons/SadEmote.png"
-            alt="sadEmoji"
-            width="250px"
-            height="auto"
-          />
+          <img src="/images/icons/SadEmote.png" alt="sadEmoji" width="250px" height="auto" />
           <h3 class="jetbrains-mono-light">Certificates will be added soon.</h3>
         </div>
       </div>
