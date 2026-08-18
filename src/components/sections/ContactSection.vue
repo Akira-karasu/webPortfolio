@@ -4,7 +4,7 @@ import BaseAnchor from '../common/BaseAnchor.vue'
 </script>
 
 <template>
-  <div class="flex items-center justify-center min-h-screen gap-25 hidden-section">
+  <div class="flex items-center justify-center min-h-screen gap-10 hidden-section">
     <div class="flex gap-4 flex-col">
       <h1 class="jetbrains-mono-medium color_green">Intersted in working together?</h1>
       <h3 class="jetbrains-mono-light color_pink">

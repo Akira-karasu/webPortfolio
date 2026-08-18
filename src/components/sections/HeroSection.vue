@@ -14,7 +14,7 @@ const viewResume = () => {
 </script>
 
 <template>
-  <div class="flex gap-25 items-center justify-center min-h-screen hidden-section">
+  <div class="flex gap-10 items-center justify-center min-h-screen hidden-section">
     <div>
       <h1 class="jetbrains-mono-medium color_green">Lord Raven Flea Iris A. Enrique</h1>
       <h2 class="jetbrains-mono-regular color_pink">Junior Full-Stack Web Developer</h2>
