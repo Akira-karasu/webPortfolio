@@ -1,44 +1,73 @@
 # webPortfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+A responsive personal portfolio website built with Vue 3 and Vite. The project presents a developer profile with a hero section, about information, skills, featured projects, and contact details.
 
-## Recommended IDE Setup
+## Overview
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+This portfolio is designed as a modern single-page application for showcasing:
 
-## Recommended Browser Setup
+- personal branding and introduction
+- technical skills and tools
+- project experience with links and descriptions
+- education and work background
+- contact information and social links
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+The site uses a data-driven structure, making it easy to update content without modifying layout components repeatedly.
 
-## Customize configuration
+## Features
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Responsive layout for desktop and mobile devices
+- Smooth scroll and reveal animations
+- Reusable UI components
+- Structured data files for projects, skills, and contact details
+- Lightweight Vite setup for fast local development
+- Clean project architecture for future expansion
 
-## Project Setup
+## Tech Stack
 
-```sh
-npm install
+- Vue 3
+- Vite
+- JavaScript
+- Tailwind CSS
+- AOS animation library
+- ESLint and Oxlint
+
+## Project Structure
+
+```bash
+webPortfolio/
+├── public/
+│   ├── images/
+│   │   ├── certificates/
+│   │   ├── icons/
+│   │   ├── logo/
+│   │   ├── picture/
+│   │   └── projects/
+│   └── resume/
+├── src/
+│   ├── App.vue
+│   ├── main.js
+│   ├── assets/
+│   │   └── styles/
+│   ├── components/
+│   │   ├── common/
+│   │   ├── layout/
+│   │   └── sections/
+│   ├── composables/
+│   └── data/
+├── eslint.config.js
+├── index.html
+├── jsconfig.json
+├── package.json
+├── README.md
+├── vite.config.js
+└── public/
 ```
 
-### Compile and Hot-Reload for Development
+## License
 
-```sh
-npm run dev
-```
+This project is for personal portfolio use. If you plan to reuse or adapt it, please check the project owner’s licensing or update the details before publishing publicly.
 
-### Compile and Minify for Production
+## Notes
 
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+The app currently follows a clean portfolio architecture and is well suited for personal branding, freelancing pages, or a developer portfolio website. It can be expanded with additional sections such as testimonials, certificates, blog posts, or downloadable resume links.
