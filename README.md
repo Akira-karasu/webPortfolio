@@ -1,27 +1,21 @@
 # webPortfolio
 
-A responsive personal portfolio website built with Vue 3 and Vite. The project presents a developer profile with a hero section, about information, skills, featured projects, and contact details.
+A personal portfolio website built with Vue 3 and Vite for showcasing professional background, technical skills, projects, education, and contact information.
 
 ## Overview
 
-This portfolio is designed as a modern single-page application for showcasing:
-
-- personal branding and introduction
-- technical skills and tools
-- project experience with links and descriptions
-- education and work background
-- contact information and social links
-
-The site uses a data-driven structure, making it easy to update content without modifying layout components repeatedly.
+This project is a single-page portfolio designed to present a developer profile in a modern, clean, and visually engaging way. It focuses on a strong landing experience while keeping content easy to maintain through data-driven files.
 
 ## Features
 
-- Responsive layout for desktop and mobile devices
-- Smooth scroll and reveal animations
-- Reusable UI components
-- Structured data files for projects, skills, and contact details
-- Lightweight Vite setup for fast local development
-- Clean project architecture for future expansion
+- Responsive, modern portfolio layout
+- Hero section with profile overview
+- About, skills, projects, certificates, and contact sections
+- Reusable UI components and layout blocks
+- Smooth scroll and reveal animations using AOS
+- Data-driven content for projects, education, technologies, and contacts
+- Fast development workflow with Vite
+- Production build support via Vite
 
 ## Tech Stack
 
@@ -29,8 +23,9 @@ The site uses a data-driven structure, making it easy to update content without 
 - Vite
 - JavaScript
 - Tailwind CSS
-- AOS animation library
-- ESLint and Oxlint
+- AOS
+- ESLint
+- Oxlint
 
 ## Project Structure
 
@@ -61,13 +56,69 @@ webPortfolio/
 ├── package.json
 ├── README.md
 ├── vite.config.js
-└── public/
+└── .gitignore
 ```
 
-## License
+## Getting Started
 
-This project is for personal portfolio use. If you plan to reuse or adapt it, please check the project owner’s licensing or update the details before publishing publicly.
+### Prerequisites
+
+- Node.js 22.18+ or newer compatible version
+- npm
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run locally
+
+```bash
+npm run dev
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+### Preview production build
+
+```bash
+npm run preview
+```
+
+## Linting
+
+```bash
+npm run lint
+```
+
+## Content Customization
+
+Most portfolio content is stored under the `src/data` folder. You can update:
+
+- personal projects
+- skill lists
+- education history
+- work experience
+- contact links
+- certificate entries
+
+This makes it easy to keep the portfolio up to date without changing the structure of the UI.
 
 ## Notes
 
-The app currently follows a clean portfolio architecture and is well suited for personal branding, freelancing pages, or a developer portfolio website. It can be expanded with additional sections such as testimonials, certificates, blog posts, or downloadable resume links.
+This portfolio is tailored for a personal developer brand and can be extended with additional sections such as:
+
+- resume download link
+- testimonials
+- blog articles
+- certifications showcase
+- contact form integration
+
+## License
+
+This project is intended for personal portfolio use. If you plan to reuse or adapt it for public deployment, make sure you review and update licensing and ownership details as needed.
