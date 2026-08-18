@@ -15,7 +15,7 @@ const filteredProjects = computed(() => {
 </script>
 
 <template>
-  <div class="flex min-h-screen flex-col items-center justify-center gap-5 py-20">
+  <div class="flex min-h-screen flex-col items-center justify-start gap-5 py-20">
     <!-- Title -->
     <h1 class="jetbrains-mono-regular w-7xl text-center hidden-section">PROJECTS</h1>
 

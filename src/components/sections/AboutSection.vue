@@ -170,7 +170,7 @@ const certificateTypes = [
           </div>
         </div>
 
-        <div v-else class="flex flex-col gap-5 items-center justify-center py-20">
+        <div v-else class="flex flex-col gap-5 items-center justify-center py-20 h-200">
           <img
             src="../../../images/icons/SadEmote.png"
             alt="sadEmoji"
